@@ -7,7 +7,7 @@ var host = process.env.APP_HOST || 'localhost';
 
 module.exports = function () {
 
-  // First we fire up Webpack an pass in the configuration we
+  // First we fire up Webpack and pass in the configuration we
   // created
   var bundleStart = null;
   var compiler = Webpack(webpackConfig);
